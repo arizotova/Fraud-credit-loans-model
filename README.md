@@ -1,5 +1,5 @@
 # Fraud-credit-loans-model
 
-Файл 'Transformer model (2 datasets).ipynb' с моделью трансформера, обученный на двух датасетах: с фрод кейсами (name=fraud) и с дефолт кейсами (name=default)
+В файле 'Transformer model.ipynb' содержится обучение модели трансформера на фрод кейсах (банкротство)
 
-Файл 'cat boost (fraud dataset).ipynb' с кэтбуст моделью, обучение на датасете с фрод таргетом
+Файл 'Boostings.ipynb' с бустинговыми моделями LightGBM, XGBoost, CatBoost, а также их композициями с трансформером
